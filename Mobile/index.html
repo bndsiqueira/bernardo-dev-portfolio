@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bernardo.dev</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">Bernardo<span class="dot">.</span>dev</div>
+      <nav class="nav-desktop">
+        <a href="#home">Início</a>
+        <a href="#about">Sobre Mim</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#projects">Projetos</a>
+        <a href="#contact">Contato</a>
+      </nav>
+      <button class="menu-toggle" id="menu-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <div class="nav-mobile" id="mobile-menu">
+      <a href="#home">Início</a>
+      <a href="#about">Sobre Mim</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#projects">Projetos</a>
+      <a href="#contact">Contato</a>
+    </div>
+  </header>
+
+<!-- HERO ------------------------------------------------------------------>
+<section id="home" class="hero">
+    <div class="container hero-inner">
+      <!-- Texto ------------------------------------------------------------->
+      <div class="hero-text">
+        <h1>
+          <span class="headline">Olá, eu trabalho com</span><br />
+          <span id="rotating-word" class="rotate"></span>
+        </h1>
+  
+        <p class="subtitle">
+          Crio experiências digitais elegantes, integrando tecnologia de ponta,
+          automações inteligentes e design com propósito.
+        </p>
+  
+        <div class="hero-buttons">
+          <a href="#projects" class="btn-primary">Ver Projetos</a>
+          <a href="#contact"  class="btn-outline">Contato</a>
+        </div>
+      </div>
+  
+      <!-- Card com Tilt ----------------------------------------------------->
+      <div class="hero-card tilt" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+        <img src="images/FrontEndDeveloper.jpg" alt="Bernardo" class="card-bg" />
+        <div class="card-overlay"></div>
+  
+        <div class="card-content">
+          <i class="fas fa-gem icon"></i>
+          <h3>Soluções de Alto Nível</h3>
+          <p>Sites refinados, automações poderosas e experiências digitais que encantam.</p>
+  
+          <ul class="features">
+            <li><i class="fas fa-laptop-code"></i> Frontend Premium</li>
+            <li><i class="fas fa-magic"></i> IA Criativa</li>
+            <li><i class="fas fa-link"></i> Integrações</li>
+            <li><i class="fas fa-bolt"></i> n8n &amp; Make</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /HERO ----------------------------------------------------------------->
+
+  <!-- SOBRE MIM -->
+<section id="about" class="about-section">
+    <div class="container about-content">
+      <!-- Imagem com glow -->
+      <div class="about-image">
+        <div class="image-glow"></div>
+        <div class="image-frame">
+          <img src="images/bernardo-foto.jpg" alt="Foto de Bernardo" />
+        </div>
+      </div>
+  
+      <!-- Texto -->
+      <div class="about-text">
+        <h2>Prazer, sou o Bernardo <span class="emoji">👋</span></h2>
+  
+        <p class="desc">
+          Especialista em transformar ideias em soluções digitais de alto nível.
+          Trabalho com foco em performance, automação inteligente e interfaces refinadas.
+        </p>
+  
+        <p class="subdesc">
+          Experiência com React, Tailwind, Make, n8n, Git, integrações com IA e APIs.
+          Conectando tecnologia com resultados reais.
+        </p>
+  
+        <a href="#contact" class="about-btn">
+          <i class="fas fa-paper-plane"></i> Fale comigo
+        </a>
+      </div>
+    </div>
+  </section>
+  
+ <!-- HABILIDADES -->
+<section id="skills" class="skills-section">
+    <div class="skills-content">
+      <h2 class="skills-title">Minhas Habilidades</h2>
+      <p class="skills-subtitle">
+        Conhecimento prático em ferramentas modernas com foco em performance,
+        automações e design inteligente.
+      </p>
+  
+      <div class="skills-grid">
+        <div class="skill-card"><i class="fab fa-react"></i> <span>React.js</span></div>
+        <div class="skill-card"><i class="fab fa-css3-alt"></i> <span>Tailwind CSS</span></div>
+        <div class="skill-card"><i class="fas fa-robot"></i> <span>Make / n8n</span></div>
+        <div class="skill-card"><i class="fab fa-js"></i> <span>JavaScript</span></div>
+        <div class="skill-card"><i class="fab fa-git-alt"></i> <span>Git & GitHub</span></div>
+        <div class="skill-card"><i class="fas fa-laptop-code"></i> <span>Desenvolvimento Web</span></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- PROJETOS EM DESTAQUE -->
+<section id="projects" class="projects-section">
+    <div class="projects-content">
+      <h2 class="projects-title">Projetos em Destaque</h2>
+  
+      <div class="projects-grid">
+        <div class="project-card tilt">
+          <i class="fas fa-brain"></i>
+          <h3>VEO3 Lucrativo</h3>
+          <p>Automação de vídeos virais com IA. +100 modelos de vídeos prontos para escalar faturamento.</p>
+        </div>
+  
+        <div class="project-card tilt">
+          <i class="fas fa-chalkboard-teacher"></i>
+          <h3>Mentoria Express</h3>
+          <p>Acompanhamento premium para lançar páginas, anúncios e vídeos em até 7 dias.</p>
+        </div>
+  
+        <div class="project-card tilt">
+          <i class="fas fa-magic"></i>
+          <h3>PreSets Pro</h3>
+          <p>Efeitos visuais prontos para CapCut e Reels. Design e dinamismo em um clique.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+ <!-- COMO POSSO TE AJUDAR -->
+<section id="services" class="services-section">
+    <div class="services-content">
+      <h2 class="services-title">Como posso te ajudar</h2>
+  
+      <div class="services-grid">
+        <!-- Mentoria Express -->
+        <a href="https://wa.me/5551992312448?text=Ol%C3%A1!%20Tenho%20interesse%20na%20Mentoria%20Express.%20Pode%20me%20passar%20mais%20informa%C3%A7%C3%B5es%3F" target="_blank" class="service-card">
+          <span class="badge">🔥 Mais acessado</span>
+          <i class="fas fa-chalkboard-teacher"></i>
+          <h3>Mentoria Express</h3>
+          <p>Acompanhamento 1:1 para lançar sua estrutura digital em até 7 dias.</p>
+        </a>
+  
+        <!-- Sites de Alta Conversão -->
+        <a href="https://wa.me/5551992312448?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20sites%20de%20alta%20convers%C3%A3o%20que%20voc%C3%AA%20desenvolve." target="_blank" class="service-card">
+          <i class="fas fa-code"></i>
+          <h3>Sites de Alta Conversão</h3>
+          <p>Landing pages modernas, rápidas e otimizadas para gerar vendas.</p>
+        </a>
+  
+        <!-- Automação Make/n8n -->
+        <a href="https://wa.me/5551992312448?text=Oi!%20Me%20explica%20melhor%20como%20funciona%20a%20automa%C3%A7%C3%A3o%20com%20Make%20ou%20n8n%3F" target="_blank" class="service-card">
+          <span class="badge">🔥 Mais acessado</span>
+          <i class="fas fa-bolt"></i>
+          <h3>Automação com Make/n8n</h3>
+          <p>Integro ferramentas, APIs e IA para automatizar processos e escalar seu negócio.</p>
+        </a>
+  
+        <!-- IA para Vídeos -->
+        <a href="https://wa.me/5551992312448?text=Ol%C3%A1!%20Quero%20entender%20como%20voc%C3%AA%20usa%20IA%20na%20cria%C3%A7%C3%A3o%20de%20v%C3%ADdeos%20e%20conte%C3%BAdos." target="_blank" class="service-card">
+          <i class="fas fa-robot"></i>
+          <h3>IA para Vídeos e Conteúdo</h3>
+          <p>Criação de vídeos virais, dublagens automáticas e IA aplicada ao marketing digital.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- FOOTER -------------------------------------------------------------- -->
+<footer class="site-footer">
+    <div class="footer-content">
+      <p>© 2025 Bernardo. Todos os direitos reservados.</p>
+  
+      <div class="social-links">
+        <a href="https://github.com/bndsiqueira"  target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/bernardo-bergamini-siqueira-0b7843358/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://t.me/bernardobnd"          target="_blank" aria-label="Telegram"><i class="fas fa-paper-plane"></i></a>
+        <a href="https://wa.me/5551992312448"       target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  
+    <!-- Botão “voltar ao topo” -->
+    <button id="back-to-top" aria-label="Voltar ao topo"><i class="fas fa-arrow-up"></i></button>
+  </footer>
+  
+  
+  
+
+</body>
+</html>
